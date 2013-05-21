@@ -1,8 +1,6 @@
 {
     "name": "chef_server",
+    "chef_type": "role",
     "json_class": "Chef::Role",
-    "run_list": [
-        "recipe[chef-server]"
-    ],
-    "chef_type": "role"
+    "run_list": []
 }
