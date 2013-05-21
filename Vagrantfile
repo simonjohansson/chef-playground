@@ -1,6 +1,6 @@
 Vagrant::Config.run do |config|
-  config.vm.box = "base64"
-  config.vm.box_url = "http://files.vagrantup.com/lucid64.box"
+  config.vm.box = "base"
+  config.vm.box_url = "http://files.vagrantup.com/precise64.box"
   config.vm.define :chef_server do |chef_server|
     chef_server.vm.provision :chef_solo do |chef|
       chef.cookbooks_path = ["cookbooks"]
