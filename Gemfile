@@ -1,5 +1,5 @@
 source "https://rubygems.org"
 
 gem "chef"
-gem "librarian"
+gem "librarian-chef"
 gem "vagrant"
