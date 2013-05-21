@@ -1,0 +1,5 @@
+.vagrant
+Cheffile.lock
+Gemfile.lock
+cookbooks/
+tmp/
