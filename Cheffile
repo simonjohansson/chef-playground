@@ -5,5 +5,6 @@ site 'http://community.opscode.com/api/v1'
 cookbook 'zabbix', '0.0.40'
 cookbook 'sudo', '2.1.2'
 cookbook 'users', '1.5.0'
+cookbook 'hostname', '0.0.6'
 
 
